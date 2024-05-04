@@ -12,8 +12,8 @@ export const CATEGORIES = [
   new Category("c8", "Asian", "#b9ffb0"),
   new Category("c9", "French", "#ffc7ff"),
   new Category("c10", "Summer", "#47fced"),
-  new Category("c11", "Africa", "#65B741"),
-  new Category("c12", "Nigeria", "#2A8A00"),
+  new Category("c11", "African", "#65B741"),
+  new Category("c12", "Nigerian", "#2A8A00"),
 ];
 
 export const MEALS = [
