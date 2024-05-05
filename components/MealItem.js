@@ -38,7 +38,11 @@ function MealItem({
             <Image source={{ uri: imageUrl }} style={styles.image} />
             <Text style={styles.title}>{title}</Text>
           </View>
-          <MealDetails duration={duration} complexity={complexity} affordability={affordability} />
+          <MealDetails
+            duration={duration}
+            complexity={complexity}
+            affordability={affordability}
+          />
         </View>
       </Pressable>
     </View>
@@ -57,7 +61,7 @@ const styles = StyleSheet.create({
     shadowColor: Colors.black,
     shadowOpacity: 0.35,
     shadowOffset: { width: 0, height: 2 },
-    shadowRadius: 16,
+    shadowRadius: 10,
   },
   innerContainer: {
     borderRadius: 8,

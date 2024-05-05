@@ -1,4 +1,4 @@
-import { FlatList, StyleSheet } from "react-native";
+import { FlatList } from "react-native";
 
 import { CATEGORIES } from "../data/dummy-data";
 import CategoryGridTitle from "../components/CategoryGridTitle";
@@ -31,5 +31,3 @@ function CategoriesScreen({ navigation }) {
 }
 
 export default CategoriesScreen;
-
-const styles = StyleSheet.create({});

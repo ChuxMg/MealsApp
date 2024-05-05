@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     fontSize: 24,
     margin: 8,
     textAlign: "center",
-    color: Colors.primary900,
+    color: Colors.primary500,
   },
   listOuterContainer: {
     alignItems: "center",

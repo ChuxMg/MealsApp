@@ -1,10 +1,9 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text } from "react-native";
 import CategoriesScreen from "./screens/CategoriesScreen";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { createDrawerNavigator } from "@react-navigation/drawer";
-import { Ionicons } from '@expo/vector-icons';
+import { Ionicons } from "@expo/vector-icons";
 
 import MealsOverviewScreen from "./screens/MealsOverviewScreen";
 import Colors from "./constants/colors";
@@ -20,7 +19,7 @@ function DrawerNavigation() {
       screenOptions={{
         headerStyle: { backgroundColor: Colors.primary900 },
         headerTintColor: Colors.primary500,
-        sceneContainerStyle: { backgroundColor: Colors.primary600 },
+        sceneContainerStyle: { backgroundColor: Colors.primaryBg },
         drawerContentStyle: { backgroundColor: Colors.primary900 },
         drawerInactiveTintColor: Colors.primary500,
         drawerActiveTintColor: Colors.primary900,
@@ -59,11 +58,11 @@ export default function App() {
           screenOptions={{
             headerStyle: { backgroundColor: Colors.primary900 },
             headerTintColor: Colors.primary500,
-            contentStyle: { backgroundColor: Colors.primary600 },
+            contentStyle: { backgroundColor: Colors.primaryBg },
           }}
         >
           <Stack.Screen
-            name="All Cagetories"
+            name="All Categories"
             component={DrawerNavigation}
             options={{
               headerShown: false,
@@ -80,7 +79,3 @@ export default function App() {
     </>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {},
-});
