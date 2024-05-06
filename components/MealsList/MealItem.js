@@ -6,9 +6,9 @@ import {
   Text,
   View,
 } from "react-native";
-import Colors from "../constants/colors";
+import Colors from "../../constants/colors";
 import { useNavigation } from "@react-navigation/native";
-import MealDetails from "./MealDetails";
+import MealDetails from "../MealDetails";
 
 function MealItem({
   title,
