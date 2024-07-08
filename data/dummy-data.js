@@ -342,7 +342,7 @@ export const MEALS = [
     "Meat Pie",
     "affordable",
     "challenging",
-    "https://scontent.fcrk1-3.fna.fbcdn.net/v/t39.30808-6/275889946_157418483382472_8647071100955768993_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFM-MwdaKy4t6_ZU9ljldf7hlFmMjht9VSGUWYyOG31VFhlOfDaJEmuKjRfFCLiRnGwLKOYoGMM6V2SA-d8p__u&_nc_ohc=j5NgA9mo78wQ7kNvgFrdKMX&_nc_ht=scontent.fcrk1-3.fna&cb_e2o_trans=q&oh=00_AfDdP-Gjsv0PVaCZGeZOBLdfdpup2YMojq_rkcwRun7xhg&oe=663BAEFB",
+    "https://gfb.global.ssl.fastly.net/wp-content/uploads/2022/03/meat-pie-1-of-1-2.jpg",
     90,
     [
       "Carrots - 2 or 3 medium-size diced",
@@ -390,7 +390,7 @@ export const MEALS = [
     "Puff-Puff",
     "affordable",
     "simple",
-    "https://scontent.fcrk1-3.fna.fbcdn.net/v/t39.30808-6/245836432_113337871123867_4949762686359549836_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=kPIoar_HWvIQ7kNvgHfcbVf&_nc_ht=scontent.fcrk1-3.fna&cb_e2o_trans=q&oh=00_AfCGDXX4kJUusVF6-Ri4DpMzVAVHgEgjqS_GryL82jWrag&oe=663F2E59",
+    "https://mummysyum.com/wp-content/uploads/2020/07/Plantain-Puffpuff1.jpg",
     45,
     [
       "500g (4 cups) plain flour (all-purpose flour)",
